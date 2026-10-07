@@ -121,8 +121,12 @@ li {
 }
 
 .footer {
-    margin-top: 40px;
-    padding: 18px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 24px;
     background-color: #173b56;
     color: white;
     text-align: center;
@@ -132,7 +136,6 @@ li {
     margin: 0;
     font-size: 14px;
 }
-
 @media (max-width: 600px) {
     .navbar {
         padding: 10px 12px;
