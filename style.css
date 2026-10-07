@@ -34,12 +34,24 @@ body {
     background-color: #173b56;
 }
 
+.site-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 .logo img {
     display: block;
     width: 64px;
     height: 64px;
     border-radius: 50%;
     background-color: white;
+}
+
+.site-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .menu-links {
@@ -108,6 +120,19 @@ li {
     color: #24627b;
 }
 
+.footer {
+    margin-top: 40px;
+    padding: 18px;
+    background-color: #173b56;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
 @media (max-width: 600px) {
     .navbar {
         padding: 10px 12px;
@@ -116,6 +141,14 @@ li {
     .logo img {
         width: 52px;
         height: 52px;
+    }
+
+    .site-brand {
+        gap: 8px;
+    }
+
+    .site-name {
+        font-size: 15px;
     }
 
     .menu-links {
