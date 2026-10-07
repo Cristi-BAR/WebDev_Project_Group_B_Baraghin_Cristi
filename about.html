@@ -1,28 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Powder Chase | About Us</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
-    <!--This is your navigation menu-->
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
-    <div class="About">
-        <img src="images/Snowboarder.jpg" alt="Snowboarder" class="About-image">
-    <h1>About Us</h1> 
-    </div>
-<div class="About-content">
-    <h2>Who are We?</h2>
-    <ul>
-    <li>We are <b>Powder Chase Adventures</b>.</li>
-    <li>We hunt for the freshest, deepest winter snow.</li>
-    <li>We connect snowboarders to the most thrilling trails on earth.</li>
-    </ul>
-</div>
+<body class="about-page">
+    <nav class="navbar">
+        <a href="index.html" class="logo" aria-label="Powder Chase home">
+            <img src="images/snowboard_logo.jpg" alt="Snowboarder logo"/>
+        </a>
+        <div class="menu-links">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <img src="images/Snowboarder.jpg" alt="A snowboarder" class="about-image"/>
+        <h1>About Us</h1>
+
+        <div class="card">
+            <h2>Who are We?</h2>
+            <ul>
+                <li>We are <strong>Powder Chase Adventures</strong>.</li>
+                <li>We hunt for the freshest, deepest winter snow.</li>
+                <li>We connect snowboarders to the most thrilling trails on earth.</li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>

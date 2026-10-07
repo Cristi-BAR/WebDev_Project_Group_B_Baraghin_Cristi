@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: #eaf1f5;
+    color: #203449;
+    font-family: Arial, sans-serif;
+}
+
+.home-page {
+    background-image: linear-gradient(rgba(16, 45, 71, 0.45), rgba(16, 45, 71, 0.45)), url("images/background2.jpg");
+}
+
+.about-page {
+    background-image: linear-gradient(rgba(16, 45, 71, 0.45), rgba(16, 45, 71, 0.45)), url("images/backgroun1.jpg");
+}
+
+.contact-page {
+    background-image: linear-gradient(rgba(16, 45, 71, 0.45), rgba(16, 45, 71, 0.45)), url("images/background3.jpg");
+}
+
+.home-page,
+.about-page,
+.contact-page {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    background-color: #173b56;
+}
+
+.logo img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.menu-links {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar a {
+    padding: 10px 14px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: #2c7892;
+}
+
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 24px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h1 {
+    margin-bottom: 12px;
+    color: #173b56;
+    font-size: 38px;
+}
+
+h2 {
+    margin-top: 32px;
+    color: #24627b;
+}
+
+p,
+li {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 24px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 14px #173b5617;
+}
+
+.about-image {
+    width: 100%;
+    max-height: 420px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.contact-card p {
+    margin: 10px 0;
+}
+
+.contact-card a {
+    color: #24627b;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 10px 12px;
+    }
+
+    .logo img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .menu-links {
+        gap: 2px;
+    }
+
+    .navbar a {
+        padding: 10px 9px;
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 24px 12px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
