@@ -150,6 +150,11 @@ li {
     font-size: 14px;
 }
 @media (max-width: 600px) {
+    .home-page,
+    .about-page,
+    .contact-page {
+        background-attachment: scroll;
+    }
     .navbar {
         padding: 10px 12px;
     }
