@@ -103,7 +103,21 @@ li {
     background-color: white;
     box-shadow: 0 4px 14px #173b5617;
 }
-
+.card-button {
+    display: inline-block;
+    margin-top: -5px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    background-color: #24627b;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.card-button:hover {
+    background-color: #173b56;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
 .about-image {
     width: 100%;
     max-height: 420px;
